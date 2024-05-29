@@ -31,4 +31,4 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
 
 ## Link Expample
 
-[Link Example](https://www.example.com)
+[Link Example](https://nextjs.org/)
