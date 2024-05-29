@@ -49,12 +49,12 @@ const About = () => {
             <ul className='space-y-1 mt-2 ml-3 list-disc'>
                 {apiLinks.map((item, ind) => (
                     <li className=' flex gap-1' key={ind}>
-                        <div className=' w-[24%] relative'>
+                        <div className='relative'>
                             <span className='absolute top-[-8px] left-1 font-extrabold text-xl text-[#62009F]'>.</span>
                             <Link href={item?.url} className=' pl-5 underline text-[#62009F]'> {item?.title}</Link>
                             <span className='pl-2'>-</span>
                         </div>
-                        <div className=' w-[76%] flex justify-start text-left'>
+                        <div className='flex justify-start text-left'>
                         
                         {item?.dec}
                         </div>
@@ -67,12 +67,12 @@ const About = () => {
             
                 {mobAppLink.map((item,ind)=>(
                    <li className=' flex gap-1' key={ind}>
-                   <div className=' w-[24%] relative'>
+                   <div className=' relative'>
                        <span className=' absolute top-[-8px] left-1 font-extrabold text-xl text-[#62009F]'>.</span>
                        <Link href={item?.url} className=' pl-5 underline text-[#62009F]'> {item?.title}</Link>
                        <span className='pl-2 '>-</span>
                    </div>
-                   <div className=' w-[76%] flex justify-start text-left'>
+                   <div className=' flex justify-start text-left'>
                    
                    {item?.dec}
                    </div>
