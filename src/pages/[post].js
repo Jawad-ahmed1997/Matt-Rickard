@@ -12,6 +12,7 @@ async function getDocFromParams(post) {
     return doc
 }
 
+
 const Page = ({ params }) => {
     const router = useRouter();
     const [loading, setLoading] = useState(true);
@@ -33,7 +34,7 @@ const Page = ({ params }) => {
     if (loading) {
         return <p>loading...</p>
     };
-    console.log(doc)
+ 
     return (
         <>
             <Head>
