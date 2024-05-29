@@ -35,14 +35,14 @@ const DefaultLayout = ({ children }) => {
   );
 };
 
- const DynamicLayout = ({ children }) => {
+ const DynamicLayout = ({ children,...props }) => {
   const router = useRouter();
   const isRootPath = router.pathname === "/";
 
   return isRootPath ? (
-    <RootLayout>{children}</RootLayout>
+    <RootLayout {...props}>{children}</RootLayout>
   ) : (
-    <DefaultLayout>{children}</DefaultLayout>
+    <DefaultLayout {...props}>{children}</DefaultLayout>
   );
 };
 

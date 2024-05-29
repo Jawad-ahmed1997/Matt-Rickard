@@ -4,11 +4,18 @@ import { Montserrat  } from 'next/font/google'
 
 import "@/styles/globals.css";
 
-const montserrat  = Montserrat ({ subsets: ['latin'] })
+const montserrat  = Montserrat (
+  { 
+    subsets: ['latin'] ,
+    variable:'--font-montserrat'
+  }
+)
 export default function App({ Component, pageProps }) {
   return (
-    <DynamicLayout  className={montserrat.className}>
+    <body className={`${montserrat.variable} font-sans`}>
+    <DynamicLayout  >
       <Component {...pageProps} />
     </DynamicLayout>
+    </body>
   )
 }
