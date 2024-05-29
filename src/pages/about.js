@@ -4,18 +4,18 @@ import React from 'react'
 
 const About = () => {
     const socialLinks = [
-        { title: "Twitter (@mattlovestech)", url: "/" },
-        { title: "GitHub (mattlovestech)", url: "/" },
+        { title: "Twitter (@mattlovestech)", url: "#" },
+        { title: "GitHub (mattlovestech)", url: "#" },
     ];
     const apiLinks = [
         {
             title: "baño.nyc",
-            url: "/",
+            url: "#",
             dec: "API that gives developers access to public restroom data in New York City."
         },
         {
             title: "hbcucolor",
-            url: "/",
+            url: "#",
             dec: "API with all of the  RGB, HEX, and CYMK color codes for  107 HBCUs"
         }
       
@@ -23,12 +23,12 @@ const About = () => {
     const mobAppLink=[
         {
             title: "PushupParty",
-            url: "/",
+            url: "#",
             dec: "Counts push-ups automatically and allows users to compete."
         },
         {
             title: "pocketLBO",
-            url: "/",
+            url: "#",
             dec: "Leveraged buyout calculator that exports to .xlsx"
         },
     ]
