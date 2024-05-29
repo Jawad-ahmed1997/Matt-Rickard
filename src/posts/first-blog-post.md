@@ -1,6 +1,7 @@
 ---
 title: first post
 description: first post description
+date: 2-08-2000
 ---
 
 # What is Lorem Ipsum?

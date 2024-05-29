@@ -1,0 +1,48 @@
+{
+  "cacheItemsMap": {
+    "posts/first-blog-post.md": {
+      "document": {
+        "title": "first post",
+        "date": "2-08-2000\r",
+        "description": "first post description",
+        "published": true,
+        "_id": "posts/first-blog-post.md",
+        "_raw": {
+          "sourceFilePath": "posts/first-blog-post.md",
+          "sourceFileName": "first-blog-post.md",
+          "sourceFileDir": "posts",
+          "contentType": "markdown",
+          "flattenedPath": "posts/first-blog-post"
+        },
+        "type": "Doc",
+        "slug": "/posts/first-blog-post",
+        "slugAsParams": "first-blog-post"
+      },
+      "documentHash": "1716990365350",
+      "hasWarnings": false,
+      "documentTypeName": "Doc"
+    },
+    "posts/post.md": {
+      "document": {
+        "title": "second post",
+        "date": "2-08-2000\r",
+        "description": "second post description",
+        "published": true,
+        "_id": "posts/post.md",
+        "_raw": {
+          "sourceFilePath": "posts/post.md",
+          "sourceFileName": "post.md",
+          "sourceFileDir": "posts",
+          "contentType": "markdown",
+          "flattenedPath": "posts/post"
+        },
+        "type": "Doc",
+        "slug": "/posts/post",
+        "slugAsParams": "post"
+      },
+      "documentHash": "1716990456464",
+      "hasWarnings": false,
+      "documentTypeName": "Doc"
+    }
+  }
+}
